@@ -31,7 +31,7 @@
                                     ?></td>
                                 <td><?php
                                     if (strlen($noticia['imagem'] > 1)) {
-                                        echo '<img src="' . BASE_UPLOAD_URL . $noticia['imagem'] . '" >';
+                                        echo '<img src="' . BASE_UPLOAD_URL . $noticia['imagem'] . '" style="max-width: 40px;">';
                                     }
                                     echo $noticia['descricao'];
                                     ?></td>
